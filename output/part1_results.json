@@ -1,18 +1,18 @@
 {
   "killer": "Larry",
-  "weapon": "Kitchen knife",
-  "motive": "Jealousy over Marcus's discovery of the treasure and the potential inheritance from their grandfather.",
+  "weapon": "Antler trophy",
+  "motive": "Jealousy over Marcus's discovery of the old coins and the grandfather's map",
   "evidence": [
-    "The unlocked back door suggests someone entered or left without being noticed.",
-    "Larry's damp hiking boots with fresh mud contradict his claim of not going outside after dinner.",
-    "The inside-out rubber glove indicates a hasty removal after committing the crime.",
-    "Marcus's last text message indicates a confrontation over ownership of the treasure.",
-    "The notepad with Marcus's handwriting shows he was aware of Larry's interest in the treasure, which could have led to a heated argument."
+    "Larry's muddy hiking boots contradict his alibi of not going outside after dinner.",
+    "The antler trophy was wiped clean of fingerprints, indicating it was used as a weapon and cleaned afterward.",
+    "Marcus's last text suggests a conflict over ownership of something valuable, likely related to the map and coins.",
+    "The unlocked back door indicates someone entered or exited the cabin without being noticed, which aligns with Larry's muddy boots.",
+    "The struggle indicated by the scuff mark on the floor suggests a confrontation between Marcus and Larry."
   ],
   "transcript": [
     {
       "action": "search",
-      "detail": "Searched Living Room"
+      "detail": "Searched Marcus's Bedroom"
     },
     {
       "action": "search",
@@ -32,39 +32,103 @@
     },
     {
       "action": "search",
-      "detail": "Searched Marcus's Bedroom"
+      "detail": "Searched Living Room"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Diana Blackwood: What was the conversation about that you had with Marcus over coffee?"
+      "detail": "Asked Diana Blackwood: What was your alibi and whereabouts the night of Marcus's murder?"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Larry Hoffman: Why do your hiking boots have fresh mud on them if you claim you didn't go outsi"
+      "detail": "Asked Larry Hoffman: What was your alibi and whereabouts the night of Marcus's murder?"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Tom Chen: What did you hear around 11pm that made you think Diana's door was opening and c"
+      "detail": "Asked Tom Chen: What was your alibi and whereabouts the night of Marcus's murder?"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Sofia Reyes: What were you photographing with your camera during the time leading up to Marcu"
+      "detail": "Asked Sofia Reyes: What was your alibi and whereabouts the night of Marcus's murder?"
     },
     {
       "action": "response",
-      "detail": "Sofia Reyes: I was taking long-exposure photos of the snowfall. The way the light reflects off the snow at night "
+      "detail": "Diana Blackwood: I was in my room reading until midnight and then slept through until 7 am. I have no idea what happe"
     },
     {
       "action": "response",
-      "detail": "Diana Blackwood: We discussed the usual pleasantries, catching up on life since college. I suppose you could say it w"
+      "detail": "Tom Chen: I was playing cards with Larry until about 9:15 PM, and then I went to my room to video call my wife"
     },
     {
       "action": "response",
-      "detail": "Tom Chen: I didn't actually hear Diana's door opening and closing, but I did hear some commotion downstairs ar"
+      "detail": "Sofia Reyes: I was outside on the back porch taking long-exposure photos of the snowfall from about 9pm to 11:30p"
     },
     {
       "action": "response",
-      "detail": "Larry Hoffman: Oh, uh, those boots? I must have stepped in some mud earlier in the day! You know how it is, right? "
+      "detail": "Larry Hoffman: Oh, right! So, I was just, you know, playing cards with Tom at our place. We wrapped up around 9:30 "
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: Diana, you mentioned you were reading until midnight. Can you explain why your l"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: Larry, you said you went to bed after playing cards with Tom. How do you explain"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: Tom, you stated you were on a video call during the time of the murder. Can anyo"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: Sofia, you were outside taking photos during the time of the murder. Can you tel"
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: I was focused on capturing the snowfall and the night scenery, so I didn't really pay attention to t"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: I suppose I must have absentmindedly taken a sip from one of the mugs while I was reading. It's not "
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, the mud? Right! You know how it is, I must have just tracked some in from earlier. I mean, I"
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: Yes, my wife can confirm the video call; the phone records will show it lasted from 9:20pm to 10:45p"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: Diana, if you were reading and lost track of time, how do you explain the fact t"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: Larry, if you were just tracking in mud from earlier, why were your boots damp a"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: Tom, if your wife can confirm your call, why didn't you notice the unlocked back"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: Sofia, if you were outside taking photos, did you notice anyone else outside dur"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, you know how it is! I must have stepped in a puddle on my way back from the car. I was just "
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: I understand how that might seem strange, but I was really focused on my conversation with my wife. "
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: I was pretty focused on my photography, so I didn't really pay attention to anyone else outside. I w"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: I find it rather amusing that you think I would lose track of time while reading. I assure you, I wa"
     }
   ]
 }
