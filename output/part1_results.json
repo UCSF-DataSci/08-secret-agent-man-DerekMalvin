@@ -1,0 +1,70 @@
+{
+  "killer": "Larry",
+  "weapon": "Kitchen knife",
+  "motive": "Jealousy over Marcus's discovery of the treasure and the potential inheritance from their grandfather.",
+  "evidence": [
+    "The unlocked back door suggests someone entered or left without being noticed.",
+    "Larry's damp hiking boots with fresh mud contradict his claim of not going outside after dinner.",
+    "The inside-out rubber glove indicates a hasty removal after committing the crime.",
+    "Marcus's last text message indicates a confrontation over ownership of the treasure.",
+    "The notepad with Marcus's handwriting shows he was aware of Larry's interest in the treasure, which could have led to a heated argument."
+  ],
+  "transcript": [
+    {
+      "action": "search",
+      "detail": "Searched Living Room"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Kitchen"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Mudroom / Back Entry"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Upstairs Hallway"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Back Porch"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Marcus's Bedroom"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: What was the conversation about that you had with Marcus over coffee?"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: Why do your hiking boots have fresh mud on them if you claim you didn't go outsi"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: What did you hear around 11pm that made you think Diana's door was opening and c"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: What were you photographing with your camera during the time leading up to Marcu"
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: I was taking long-exposure photos of the snowfall. The way the light reflects off the snow at night "
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: We discussed the usual pleasantries, catching up on life since college. I suppose you could say it w"
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: I didn't actually hear Diana's door opening and closing, but I did hear some commotion downstairs ar"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, those boots? I must have stepped in some mud earlier in the day! You know how it is, right? "
+    }
+  ]
+}
